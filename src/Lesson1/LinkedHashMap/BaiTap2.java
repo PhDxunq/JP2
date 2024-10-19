@@ -24,7 +24,7 @@ public class BaiTap2 {
                     System.out.print("Nhập tên khách hàng: ");
                     String name = scanner.nextLine();
                     int customerNumber = cusLinkedHashMap.size() + 1;
-                    queue.put(name, customerNumber);
+                    cusLinkedHashMap.put(name, customerNumber);
                     System.out.println("Khách hàng '" + name + "' đã được thêm vào hàng đợi với số thứ tự: " + customerNumber);
                     break;
                 case 2:
