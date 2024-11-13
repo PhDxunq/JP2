@@ -40,7 +40,7 @@ public class Bai2 {
                     String selectedProduct = products[random.nextInt(products.length)];
                     Integer[] counts = productCount.get(selectedProduct);
                     if (counts[1] > 0) {
-                        counts[1] -= 1; 
+                        counts[1] -= 1;
                         System.out.println("Exported product: " + selectedProduct + ", New export count: " + counts[1]);
                     }
                 }
